@@ -6,11 +6,11 @@ One repo to share my dots. One repo to find them. One repo to map my keys. And i
 
 ~/.xinitrc
 
+~/.vimrc
+
 ~/.cshrc
 
 ~/cheat-sheet.txt
-
-~/.config/nvim/init.vim
 
 ~/.config/i3/config
 
