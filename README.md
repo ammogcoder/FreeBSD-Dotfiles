@@ -16,6 +16,8 @@ One repo to share my dots. One repo to find them. One repo to map my keys. And i
 
 ~/.config/compton/compton.conf
 
+~/.config/sxhkd/sxhkdrc
+
 ~/.config/bspwm/bspwmrc
 
 ~/.config/bspwm/adjust-new-window
