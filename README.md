@@ -6,7 +6,7 @@ One repo to share my dots. One repo to find them. One repo to map my keys. And i
 
 ~/.xinitrc
 
-~/.bashrc
+~/.cshrc
 
 ~/cheat-sheet.txt
 
