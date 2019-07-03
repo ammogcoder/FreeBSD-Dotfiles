@@ -1,0 +1,102 @@
+          ###################         GENERAL KEYBINDS       #########################################
+
+	  #############     These can be edited in ~/.config/sxhkd/sxhkdrc     #######################
+
+	  Alt			  b			Firefox
+	  Alt			  f			Thunar
+	  Alt			  d			Dmenu
+
+	  Alt			  n			Nitrogen
+	  Alt			  t			Mousepad
+
+          Alt 			  h			Open this cheat sheet in mousepad
+	  Alt 			  x			Open sxhkdrc in mousepad
+
+	  Alt 			  Return		Xfce4 Terminal
+	  Alt|Shift		  s			Reload sxhkd
+
+  				  Print			Xfce4 Screenshooter
+				  
+	  Shift                   Up                    Increase volume
+	  Shift                   Down                  Decrease volume
+				  F4 			Toggle mute/unmute
+
+	  ###################           DWM KEYBINDS         #########################################
+
+          #############     These are hard-coded in ~/dwm/config.h     ###############################  
+
+	  MODIFIERS               KEY			FUNCTION
+
+	  Super                   d			run dmenu
+	  Super                   b			toggle bar on/off
+
+	  Super                   Space                 toggle tiled/floating layout
+          Super			  Tab			toggle between current/last view
+	  
+	  Super                   Left mouse-click      Move floating window
+	  Super                   Right mouse-click     Resize floating window
+
+	  Super			  {1...9}		switch to numbered view
+          Super|Shift		  {1...9}               move window to numbered view
+	  
+	  Super                   v                     view all windows
+          Super                   t                     tag all views with this window
+
+	  Super                   q			quit focused window
+	  Super                   F2			quit swm session
+
+	  Super                   Return		spawn st
+	  Super                   m      		move window from stack to master
+		
+	  Super                   j			focus window clockwise
+	  Super                   k			focus window counterclockwise
+
+	  Super                   0			toggle window gaps on/off
+	  Super|Shift             0			default window gaps
+
+	  Super                   h			increase all window gaps
+	  Super                   l			decrease all window gaps
+
+	  Super                   y			increase horizontal window gaps
+	  Super			  o			decrease horizontal window gaps
+
+	  Super|Control           y      		increase vertical window gaps
+	  Super|Control           o      		decrease vertical window gaps
+
+	  Super|Shift             y			increase external window gaps
+	  Super|Shift             o			decrease external window gaps
+
+	  Super|Shift             h			increase outer window gaps
+	  Super|Shift             l			decrease outer window gaps
+
+	  Super|Control           h			increase inner window gaps
+	  Super|Control           l			decrease inner window gaps
+
+	  Super|Alt               y			increase upper window gaps
+	  Super|Alt               o			decrease upper window gaps
+
+	  ####################            BSPWM HOTKEYS           ###################################
+
+	  ###########     These can be edited in ~/.config/sxhkd/sxhkdrc     ########################
+
+	  Alt	 		  Left			Focus previous window
+	  Alt	 		  Right			Focus next window
+
+	  Alt	 		  Up			Focus north
+	  Alt	 		  Down			Focus south
+
+	  Alt	 		  Space			Rotate desktop
+	  Alt|Shift 		  r			Reload Bspwm
+
+	  Alt	 		  q			Quit window
+	  Alt	 		  F2			Quit Bspwm
+	  Alt			  F3			Set window state
+
+	  Alt|Shift		  Left			Move focused window to previous workspace
+	  Alt|Shift	 	  Right			Move focused window to next workspace
+
+	  Alt	 		  F4			Preselect west
+	  Alt	 		  F5			Preselect south
+	  Alt	 		  F6			Preselect north
+	  Alt	 		  F7			Preselect east
+	  Alt			  F8 			Cancel preselection
