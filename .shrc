@@ -1,0 +1,76 @@
+# $FreeBSD: releng/12.0/share/skel/dot.shrc 327420 2017-12-31 06:58:58Z eadler $
+#
+# .shrc - bourne shell startup file 
+#
+# This file will be used if the shell is invoked for interactive use and
+# the environment variable ENV is set to this file.
+#
+# see also sh(1), environ(7).
+#
+
+# file permissions: rwxr-xr-x
+#
+# umask	022
+
+# Uncomment this to enable the builtin vi(1) command line editor in sh(1),
+# e.g. ESC to go into visual mode.
+# set -o vi
+
+# some useful aliases
+alias h='fc -l'
+alias j=jobs
+alias m="$PAGER"
+alias ll='ls -laFo'
+alias l='ls -l'
+alias g='egrep -i'
+ 
+# # be paranoid
+# alias cp='cp -ip'
+# alias mv='mv -i'
+# alias rm='rm -i'
+
+# # set prompt: ``username@hostname$ '' 
+# PS1="`whoami`@`hostname | sed 's/\..*//'`"
+# case `id -u` in
+# 	0) PS1="${PS1}# ";;
+# 	*) PS1="${PS1}$ ";;
+# esac
+
+# search path for cd(1)
+CDPATH=:$HOME
+
+# Package manger
+alias pi='pkg install'
+alias pd='pkg delete'
+
+# Git Clone
+alias gcl='git clone'
+
+# YouTube Downloader
+alias ydl='youtube-dl'
+alias ydl-aac="youtube-dl --extract-audio --audio-format aac "
+alias ydl-best="youtube-dl --extract-audio --audio-format best "
+alias ydl-flac="youtube-dl --extract-audio --audio-format flac "
+alias ydl-m4a="youtube-dl --extract-audio --audio-format m4a "
+alias ydl-mp3="youtube-dl --extract-audio --audio-format mp3 "
+alias ydl-opus="youtube-dl --extract-audio --audio-format opus "
+alias ydl-vorbis="youtube-dl --extract-audio --audio-format vorbis "
+alias ydl-wav="youtube-dl --extract-audio --audio-format wav "
+alias ydl-best="youtube-dl -f bestvideo+bestaudio "
+
+# Use GMake
+alias gci='gmake clean install'
+
+# Compile ncurses C code with LLVM
+alias ncu='clang -lncurses'
+
+# Run a freshly compiled binary
+alias run='./a.out'
+
+# Neofetch
+alias neo='echo;neofetch'
+
+# Power off
+alias po='poweroff'
+
+neo
