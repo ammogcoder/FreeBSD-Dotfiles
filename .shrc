@@ -39,10 +39,6 @@ alias g='egrep -i'
 # search path for cd(1)
 CDPATH=:$HOME
 
-# Package manger
-alias pi='pkg install'
-alias pd='pkg delete'
-
 # Git Clone
 alias gcl='git clone'
 
