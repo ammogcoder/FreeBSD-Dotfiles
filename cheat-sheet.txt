@@ -2,7 +2,7 @@
 
 	  #############     These can be edited in ~/.config/sxhkd/sxhkdrc     #######################
 
-	  Alt			  b			Firefox
+	  Alt			  b			Chromium
 	  Alt			  f			Thunar
 	  Alt			  d			Dmenu
 
