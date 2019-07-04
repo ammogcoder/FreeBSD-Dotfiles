@@ -8,6 +8,8 @@ One repo to share my dots. One repo to find them. One repo to map my keys. And i
 
 ~/.vimrc
 
+~/.shrc
+
 ~/cheat-sheet.txt
 
 ~/.config/i3/config
@@ -23,6 +25,8 @@ One repo to share my dots. One repo to find them. One repo to map my keys. And i
 ~/.config/bspwm/pseudo_automatic_mode
 
 ~/.config/bspwm/autostart.sh
+
+~/dwm/Makefile
 
 ~/dwm/config.def.h
 
