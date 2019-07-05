@@ -8,8 +8,8 @@ compton --config ~/.config/compton/compton.conf &
 
 nitrogen --restore &
 
-# KEYBOARD VOLUME CONTROLS
-##########################
+# KEYBOARD VOLUME CONTROLS ("comment out" for xfce)
+###################################################
 
 xfce4-volumed-pulse &
 
