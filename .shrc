@@ -51,4 +51,8 @@ alias neo='echo;neofetch'
 # Start Xorg
 alias sx='startx'
 
+# These commands require the user to be added to the Sudoers file
+alias sr='sudo reboot'
+alias po='sudo poweroff'
+
 neo
