@@ -45,16 +45,10 @@ alias gcl='git clone'
 # Use GMake
 alias gci='gmake clean install'
 
-# Compile ncurses C code with LLVM
-alias ncu='clang -lncurses'
-
-# Run a freshly compiled binary
-alias run='./a.out'
-
 # Neofetch
 alias neo='echo;neofetch'
 
-# Power off
-alias po='poweroff'
+# Start Xorg
+alias sx='startx'
 
 neo
