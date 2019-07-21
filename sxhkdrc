@@ -12,11 +12,11 @@ alt + shift + s
 
 # Volume Up
 shift + Up
-      pactl -- set-sink-volume 0 +10%
+      pactl -- set-sink-volume 0 +5%
 
 # Volume Down
 shift + Down
-      pactl -- set-sink-volume 0 -10%
+      pactl -- set-sink-volume 0 -5%
 
 # Toggle Mute/Unmute
 F4
